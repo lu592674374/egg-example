@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "egg": "^1.9.0",
-    "egg-view-nunjucks": "^2.1.4"
+    "egg-validate": "^1.0.0",
+    "egg-view-nunjucks": "^2.1.4",
+    "parameter": "^2.2.0"
   },
   "devDependencies": {
     "egg-bin": "^4.3.5",
