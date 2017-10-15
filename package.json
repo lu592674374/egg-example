@@ -5,18 +5,22 @@
   "main": "index.js",
   "scripts": {
     "dev": "egg-bin dev",
-    "test": "egg-bin test"
+    "test": "egg-bin test",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop"
   },
   "author": "leo",
   "license": "ISC",
   "dependencies": {
     "egg": "^1.9.0",
+    "egg-scripts": "^2.0.0",
     "egg-validate": "^1.0.0",
     "egg-view-nunjucks": "^2.1.4",
     "parameter": "^2.2.0"
   },
   "devDependencies": {
     "egg-bin": "^4.3.5",
+    "egg-development-proxyagent": "^1.0.0",
     "egg-mock": "^3.13.0"
   }
 }
